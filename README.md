@@ -5,3 +5,8 @@ Available scripts:
 - gdpr - french
 - bribery prevention - 2024
 - modern slavery - french
+
+To skip the initial training:
+```js
+document.getElementById('nextButton').click();
+```
