@@ -4,9 +4,13 @@ Available scripts:
 - whistleblowing
 - gdpr - french
 - bribery prevention - 2024
-- modern slavery - french
+- modern slavery - french (doesn't work on microsoft edge)
 
 To skip the initial training:
 ```js
 document.getElementById('nextButton').click();
+```
+or for modern slavery:
+```js
+window.frames[0].document.getElementById('nextButton').click();
 ```
