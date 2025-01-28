@@ -5,6 +5,7 @@ Available scripts:
 - gdpr - french
 - bribery prevention - 2024
 - modern slavery - french (doesn't work on microsoft edge)
+- information security (likely only works on chrome)
 
 To skip the initial training:
 ```js
