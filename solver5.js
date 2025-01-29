@@ -2,11 +2,9 @@
 function gID(id) {
 	return document.getElementById(id);
 }
-
 function gCN(name) {
 	return document.getElementsByClassName(name);
 }
-
 function get_fingerprint_element() {
 	let fingerprint_element = gCN('assessment-questionContainer')[0];
 	if (fingerprint_element == undefined) {
@@ -16,7 +14,6 @@ function get_fingerprint_element() {
 	}
 	return fingerprint_element.innerHTML;
 }
-
 function get_answer_elements() {
 	let answer_elements = gCN('assessment-option');
 	if (answer_elements == undefined) {
@@ -26,7 +23,6 @@ function get_answer_elements() {
 	}
 	return answer_elements;
 }
-
 function get_submit_button_element() {
 	let get_submit_button_element = gCN('assessment_submitBtn')[0];
 	if (get_submit_button_element == undefined) {
@@ -36,7 +32,6 @@ function get_submit_button_element() {
 	}
 	return get_submit_button_element;
 }
-
 function get_next_button_element() {
 	let next_button_element = gID('nextButton');
 	if (next_button_element == undefined) {
@@ -46,7 +41,6 @@ function get_next_button_element() {
 	}
 	return next_button_element;
 }
-
 function get_retry_button_element() {
 	let retry_button_element = gCN('assessmentButton')[0];
 	if (retry_button_element == undefined) {
@@ -56,7 +50,6 @@ function get_retry_button_element() {
 	}
 	return retry_button_element;
 }
-
 function is_answer_correct() {
 	return read(document.getElementsByClassName('assessment-points-result')[0]) == 7;
 }
@@ -102,7 +95,6 @@ function click_p(list, p) {let cnt = 0; while (cnt<list.length && cnt<p.length) 
 function click(elm) {if (elm != undefined) elm.click();}
 function read(elm) {if (elm != undefined) return elm.innerHTML.length;}
 function stop() {clearInterval(interval);}
-
 
 interval = setInterval(()=>{
 	let answer;
