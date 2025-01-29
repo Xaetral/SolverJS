@@ -1,11 +1,11 @@
-Note: Some scripts only work with the text in english.  
+Note: Some scripts only work with the text in english and using chrome browser.  
 
 Available scripts:
 - whistleblowing
 - gdpr - french
 - bribery prevention - 2024
-- modern slavery - french (doesn't work on microsoft edge)
-- information security (likely only works on chrome)
+- modern slavery - french
+- information security
 
 To skip the initial training:
 ```js
