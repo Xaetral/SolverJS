@@ -40,7 +40,7 @@ function click_p(list, p) {let cnt = 0; while (cnt<list.length && cnt<p.length) 
 function click(elm) {if (elm != undefined) elm.click();}
 function display(elm) {if (elm != undefined) {console.log(elm.innerHTML); if (elm.innerHTML == 'Your score: 80%') clearInterval(interval);}}
 function read(elm) {if (elm != undefined) return elm.innerHTML.length;}
-function stop() {clearInterval(interval);}
+function stop() {clearInterval(interval); alert(JSON.stringify(fp_dic))}
 
 var fp_dic = {};
 interval = setInterval(()=>{
