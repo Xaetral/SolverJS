@@ -6,6 +6,7 @@ Available scripts:
 - bribery prevention - 2024
 - modern slavery - french
 - information security
+- FTPF (WIP)
 
 To skip the initial training:
 ```js
