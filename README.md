@@ -16,7 +16,7 @@ or for modern slavery:
 ```js
 window.frames[0].document.getElementById('nextButton').click();
 ```
-or for FTPF: (only after selecting scorm_frame scope)
+or for FTPF: (only after selecting scorm_frame)
 ```js
 $0.contentWindow.frames[0].document.getElementById('nextButton').click();
 ```
