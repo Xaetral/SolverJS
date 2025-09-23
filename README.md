@@ -20,3 +20,7 @@ or for FTPF: (only after selecting scorm_frame)
 ```js
 $0.contentWindow.frames[0].document.getElementById('nextButton').click();
 ```
+To save the recorded answers:
+```js
+alert(JSON.stringify(fp_list))
+```
