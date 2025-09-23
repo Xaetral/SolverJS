@@ -22,5 +22,5 @@ $0.contentWindow.frames[0].document.getElementById('nextButton').click();
 ```
 To save the recorded answers:
 ```js
-alert(JSON.stringify(fp_list))
+alert(JSON.stringify(fp_list));
 ```
