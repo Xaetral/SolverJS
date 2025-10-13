@@ -1,4 +1,4 @@
-Note: Some scripts only work with the text in english and using chrome browser.  
+Note: Some scripts only work with the text in english and using chrome browser (or edge).  
 
 Available scripts:
 - whistleblowing
