@@ -1,3 +1,4 @@
+//failure to prevent fraud
 //select scorm_frame
 //var scorm_frame = $0;
 
