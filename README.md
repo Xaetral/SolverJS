@@ -4,9 +4,10 @@ Available scripts:
 - whistleblowing
 - gdpr - french
 - bribery prevention - 2024
-- modern slavery - french
+- modern slavery - french (old)
 - information security
 - failure to prevent fraud
+- modern slavery
 
 To skip the initial training:
 ```js
