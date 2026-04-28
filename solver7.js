@@ -1,4 +1,4 @@
-//modern slavery
+//modern slavery / competition law
 //select scorm_frame
 var scorm_frame = $0;
 
