@@ -7,7 +7,7 @@ Available scripts:
 - modern slavery - french (old)
 - information security
 - failure to prevent fraud
-- modern slavery
+- modern slavery / competition law
 
 To skip the initial training:
 ```js
