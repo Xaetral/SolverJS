@@ -17,7 +17,7 @@ or for (old) modern slavery:
 ```js
 window.frames[0].document.getElementById('nextButton').click();
 ```
-or for FTPF and modern slavery: (only after selecting scorm_frame)
+or for FTPF, modern slavery and competition law: (only after selecting scorm_frame)
 ```js
 $0.contentWindow.frames[0].document.getElementById('nextButton').click();
 ```
